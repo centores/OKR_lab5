@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    font-family: lator, sans-serif;
+}
+
+.headers {
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+
+.head-page {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 2.5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.navigation {
+    text-align: center;
+    padding-top: 20px;
+    background-color: white;
+    position: static;
+}
+
+.navigation a {
+    text-decoration: none;
+    border: 2px solid #333;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: all 1s;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Псевдокласи для посилань 5lab*/
+
+.navigation a:hover {
+    color: #fff;
+    background-color: #333;
+}
+
+.navigation a:active {
+    color: green;
+}
+
+.navigation a:link {
+    color: darkgray;
+}
+
+.before-after {
+    text-align: center;
+}
+
+.before-after::before {
+    content: "<< ";
+}
+
+.before-after::after {
+    content: " >>";
+}
+
+p:first-child {
+    color: pink;
+}
+
+.content {
+    color: #333;
+    background-color: white;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    position: static;
+    height: 100%;
+}
+
+.content .fontExample {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: chocolate;
+}
+
+.content a:visited {
+    color: #333;
+}
+
+.content .heading {
+    font-size: 24px;
+    color: #333;
+    font-style: italic;
+    text-align: center;
+}
+
+.content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 0;
+    color: #333;
+}
+
+.content ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+    padding-left: 0;
+    color: #333;
+}
+
+.content dl {
+    margin-left: 20px;
+    padding-left: 0;
+    color: #333;
+}
+
+.content dt {
+    font-weight: bold;
+}
+
+.content li {
+    margin-bottom: 5px;
+}
+
+.content-contacts {
+    text-align: center !important; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Плаваючий блок */
+.floating-block {
+    float: right;
+    margin-right: 20px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+
+.contacts-content {
+    line-height: 2;
+    text-align: center;
+    background-color: white;
+}
+
+footer {
+    padding-left: 10px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: static;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a {
+    color: #ff6347;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
